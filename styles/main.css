@@ -6,16 +6,48 @@ body, html {
     padding: 0;
     background-color: #121318;
     color: #dfdfdf;
-    text-align: center;
     font-family: Georgia, serif;
 }
 
-h1, h2 {
-}
 
 hr {
+    background-color: #eba15c;
+    height: 1px;
+    border: none;
     width: 90%;
 }
+
+ul {
+
+}
+
+text {
+    max-width: 60%;
+    display: block;
+    margin-left: 5%;
+    margin-bottom: 1rem;
+}
+
+/* Major heading */
+.SectionHeading {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 12%;
+}
+
+/* General block of Test */
+.Block {
+    margin-top: 1rem;
+    margin-left: 15%;
+}
+
+
+
+.DateSection {
+
+    font-size: 1rem;
+}
+
 
 #ProfileContainer {
     display: flex;
@@ -41,6 +73,16 @@ hr {
     font-size: 1rem; 
 }
 
+#EmailEmoji {
+    font-size: 1.4rem;
+}
+
+#GithubInfo {
+    color: #eba15c;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
 #NameBlock {
     margin: auto;
     /*width: 100vh;*/
@@ -57,3 +99,27 @@ hr {
 #ContactInfo {
     display: inline-block;
 }
+
+
+
+/* Education Section Styles */
+
+.EducationBlock {
+    margin-top: 1rem;
+    margin-left: 15%;
+}
+
+#EducationHistory {
+    margin-top: 5rem;
+}
+
+
+#WorkHistory {
+    margin-top: 5rem;
+}
+
+#Skills {
+    margin-top: 5rem;
+    margin-bottom: 22vh;
+}
+
