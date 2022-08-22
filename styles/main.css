@@ -1,0 +1,125 @@
+
+
+body, html {
+    margin: 0;
+    margin-top: 30px;
+    padding: 0;
+    background-color: #121318;
+    color: #dfdfdf;
+    font-family: Georgia, serif;
+}
+
+
+hr {
+    background-color: #eba15c;
+    height: 1px;
+    border: none;
+    width: 90%;
+}
+
+ul {
+
+}
+
+text {
+    max-width: 60%;
+    display: block;
+    margin-left: 5%;
+    margin-bottom: 1rem;
+}
+
+/* Major heading */
+.SectionHeading {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 12%;
+}
+
+/* General block of Test */
+.Block {
+    margin-top: 1rem;
+    margin-left: 15%;
+}
+
+
+
+.DateSection {
+
+    font-size: 1rem;
+}
+
+
+#ProfileContainer {
+    display: flex;
+    gap: 2rem;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#ProfileImage{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#Summary {
+    font-size: 1rem;
+    
+}
+
+#ContactInfo {
+    font-size: 1rem; 
+}
+
+#EmailEmoji {
+    font-size: 1.4rem;
+}
+
+#GithubInfo {
+    color: #eba15c;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+#NameBlock {
+    margin: auto;
+    /*width: 100vh;*/
+    text-align: left;
+}
+
+
+#Name {
+    
+    font-size: 1.2rem;
+    display: inline-block;
+}
+
+#ContactInfo {
+    display: inline-block;
+}
+
+
+
+/* Education Section Styles */
+
+.EducationBlock {
+    margin-top: 1rem;
+    margin-left: 15%;
+}
+
+#EducationHistory {
+    margin-top: 5rem;
+}
+
+
+#WorkHistory {
+    margin-top: 5rem;
+}
+
+#Skills {
+    margin-top: 5rem;
+    margin-bottom: 22vh;
+}
+
