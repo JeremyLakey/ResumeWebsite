@@ -50,6 +50,8 @@ text {
 }
 
 
+
+
 #ProfileContainer {
     display: flex;
     gap: 2rem;
@@ -120,8 +122,25 @@ text {
     margin-top: 5rem;
 }
 
+#FluentWorlds {
+    margin-bottom: 3rem;
+}
+
 #Skills {
     margin-top: 5rem;
     margin-bottom: 22vh;
 }
 
+
+
+.Grid {
+    display: flex;
+    max-width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 20%;
+}
+
+.Column > div{
+    margin-bottom: 3rem;
+}
