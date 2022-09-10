@@ -7,7 +7,7 @@ body, html {
     padding: 0;
     background-color: #121318;
     color: #dfdfdf;
-    font-family: Georgia, serif;
+    font-family: 'Montserrat';
 }
 
 
@@ -18,8 +18,22 @@ hr {
     width: 90%;
 }
 
-ul {
+li {
+    font-weight: 100;
+    font-size: 30px;
+    list-style-type: none;
+}
 
+h2 {
+    font-weight: 400;
+    font-size: 50px;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 35px;
+    margin-bottom: 0.3rem;
+    margin-top: 1px;
 }
 
 text {
@@ -27,26 +41,31 @@ text {
     display: block;
     margin-left: 5%;
     margin-bottom: 1rem;
+    font-weight: 100;
 }
 
 /* Major heading */
 .SectionHeading {
-    font-size: 1.5rem;
+    font-size: 2.3rem;
     text-align: left;
     margin-left: 12%;
+    margin-bottom: 0;
 }
 
 /* General block of Test */
 .Block {
     margin-top: 1rem;
-    margin-left: 15%;
+    margin-left: 12%;
 }
 
 
 
 .DateSection {
 
-    font-size: 1rem;
+    margin-top: 0.1rem;
+    margin-bottom: 41.5px;
+    font-size: 25px;
+    font-weight: 300;
 }
 
 
@@ -54,14 +73,14 @@ text {
 
 #ProfileContainer {
     display: flex;
-    gap: 2rem;
-    max-width: 700px;
+    gap: 2.5rem;
+    max-width: 800px;
     margin: 0 auto;
 }
 
 #ProfileImage{
-    width: 250px;
-    height: 250px;
+    width: 290px;
+    height: 290px;
     object-fit: cover;
     border-radius: 50%;
     display: inline-block;
@@ -69,12 +88,13 @@ text {
 }
 
 #Summary {
+    font-weight: 100;
     font-size: 1rem;
-    
+    margin-bottom: .3rem;
 }
 
 #ContactInfo {
-    font-size: 1rem; 
+    font-size: .75rem; 
 }
 
 #EmailEmoji {
@@ -96,12 +116,14 @@ text {
 
 #Name {
     
-    font-size: 1.2rem;
+    font-size: 2.0rem;
     display: inline-block;
+    margin-bottom: 0.3rem;
 }
 
 #ContactInfo {
     display: inline-block;
+    margin-top: 0;
 }
 
 
@@ -143,4 +165,164 @@ text {
 
 .Column > div{
     margin-bottom: 3rem;
+}
+
+/********************************************************************MOBILE STYLE VALUES********************************************************/
+@media (max-width: 800px) {
+
+
+    body, html {
+        width: 100%;
+        font-size: 20px;
+        margin: 0;
+        margin-top: 30px;
+        padding: 0;
+        background-color: #121318;
+        color: #dfdfdf;
+        font-family: 'Montserrat';
+    }
+    
+    
+    hr {
+        background-color: #eba15c;
+        height: 1px;
+        border: none;
+        width: 90%;
+    }
+    
+    ul {
+    
+    }
+    
+    text {
+        word-wrap: break-word;
+        max-width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1rem;
+        
+        font-weight: 10;
+    }
+    
+    /* Major heading */
+    .SectionHeading {
+        font-size: 1.5rem;
+        text-align: left;
+        margin-left: 12%;
+    }
+    
+    /* General block of Test */
+    .Block {
+        margin-top: 1rem;
+        margin-left: 15%;
+    }
+    
+    
+    
+    .DateSection {
+    
+        font-size: 1rem;
+    }
+    
+    
+    
+    
+    #ProfileContainer {
+        display: Block;
+        gap: 0rem;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    
+    #ProfileImage{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-top: 30px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #Summary {
+        font-size: 1rem;
+        
+    }
+    
+    #ContactInfo {
+        font-size: 1rem; 
+    }
+    
+    #EmailEmoji {
+        font-size: 1.4rem;
+    }
+    
+    #GithubInfo {
+        color: #eba15c;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+    
+    #NameBlock {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        /*width: 100vh;*/
+        text-align: left;
+    }
+    
+    
+    #Name {
+        
+        font-size: 1.2rem;
+        display: inline-block;
+    }
+    
+    #ContactInfo {
+        display: inline-block;
+    }
+    
+    
+    
+    /* Education Section Styles */
+    
+    .EducationBlock {
+        margin-top: 1rem;
+        margin-left: 15%;
+    }
+    
+    #EducationHistory {
+        margin-top: 5rem;
+    }
+    
+    
+    #WorkHistory {
+        margin-top: 5rem;
+    }
+    
+    #FluentWorlds {
+        margin-bottom: 3rem;
+    }
+    
+    #Skills {
+        margin-top: 5rem;
+        margin-bottom: 22vh;
+    }
+    
+    
+    
+    .Grid {
+        display: flex;
+        max-width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+        gap: 20%;
+    }
+    
+    .Column > div{
+        margin-bottom: 3rem;
+    }
+
 }
