@@ -16,6 +16,8 @@ hr {
     height: 1px;
     border: none;
     width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 li {
@@ -40,15 +42,14 @@ text {
     max-width: 60%;
     display: block;
     margin-left: 5%;
+    margin-right: auto;
     margin-bottom: 1rem;
     font-weight: 100;
 }
 
 /* Major heading */
 .SectionHeading {
-    font-size: 2.3rem;
-    text-align: left;
-    margin-left: 12%;
+    text-align: center;
     margin-bottom: 0;
 }
 
@@ -69,13 +70,31 @@ text {
 }
 
 
+#Socials {
+    height: 20px;
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    text-align: right;
+    margin-right: 5%;
+    padding-top: 1%;
+}
 
+#GitLogo {
+    position: relative;
+    top: 5px;
+    height: 25px;
+    width: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
 
 #ProfileContainer {
     display: flex;
     gap: 2.5rem;
     max-width: 800px;
     margin: 0 auto;
+    margin-left: 5%;
 }
 
 #ProfileImage{
@@ -104,7 +123,7 @@ text {
 #GithubInfo {
     color: #eba15c;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: .75rem;
 }
 
 #NameBlock {
@@ -141,7 +160,7 @@ text {
 
 
 #WorkHistory {
-    margin-top: 5rem;
+    margin-top: 0;
 }
 
 #FluentWorlds {
@@ -157,10 +176,18 @@ text {
 
 .Grid {
     display: flex;
-    max-width: 70%;
+    flex-wrap: wrap;
+    max-width: 80%;
     margin-right: auto;
     margin-left: auto;
-    gap: 20%;
+}
+
+.Column {
+    flex: 0, 0, 0;
+    min-width: 400px;
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .Column > div{
@@ -172,8 +199,7 @@ text {
 
 
     body, html {
-        width: 100%;
-        font-size: 20px;
+        font-size: 25px;
         margin: 0;
         margin-top: 30px;
         padding: 0;
@@ -188,71 +214,110 @@ text {
         height: 1px;
         border: none;
         width: 90%;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     
-    ul {
+    li {
+        font-weight: 100;
+        font-size: 30px;
+        list-style-type: none;
+        padding-right: 5px;
+    }
     
+    h2 {
+        font-weight: 400;
+        font-size: 50px;
+    }
+    
+    h3 {
+        font-weight: 300;
+        font-size: 35px;
+        margin-bottom: 0.3rem;
+        margin-top: 1px;
     }
     
     text {
-        word-wrap: break-word;
-        max-width: 90%;
+        max-width: 60%;
         display: block;
-        margin-left: auto;
+        margin-left: 5%;
         margin-right: auto;
         margin-bottom: 1rem;
-        
-        font-weight: 10;
+        padding-right: 5px;
+        font-weight: 100;
     }
     
     /* Major heading */
     .SectionHeading {
-        font-size: 1.5rem;
-        text-align: left;
-        margin-left: 12%;
+        text-align: center;
+        margin-bottom: 0;
     }
     
     /* General block of Test */
     .Block {
         margin-top: 1rem;
-        margin-left: 15%;
+        margin-left: 12%;
     }
     
     
     
     .DateSection {
     
-        font-size: 1rem;
+        margin-top: 0.1rem;
+        margin-bottom: 41.5px;
+        font-size: 25px;
+        font-weight: 300;
     }
     
     
+    #Socials {
+        height: 20px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        text-align: right;
+        margin-right: 5%;
+        padding-top: 1%;
+    }
     
+    #GitLogo {
+        position: relative;
+        top: 5px;
+        height: 25px;
+        width: 25px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
     
     #ProfileContainer {
-        display: Block;
-        gap: 0rem;
-        max-width: 700px;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+        max-width: 800px;
         margin: 0 auto;
+        margin-left: 5%;
     }
     
     #ProfileImage{
-        width: 300px;
-        height: 300px;
+        width: 290px;
+        height: 290px;
         object-fit: cover;
         border-radius: 50%;
+        display: inline-block;
         margin-top: 30px;
-        display: block;
         margin-right: auto;
         margin-left: auto;
     }
     
     #Summary {
+        font-weight: 100;
         font-size: 1rem;
-        
+        margin-bottom: .3rem;
+        padding-right: 5px;
     }
     
     #ContactInfo {
-        font-size: 1rem; 
+        font-size: .75rem; 
     }
     
     #EmailEmoji {
@@ -262,13 +327,11 @@ text {
     #GithubInfo {
         color: #eba15c;
         text-decoration: none;
-        font-size: 1rem;
+        font-size: .75rem;
     }
     
     #NameBlock {
-        width: 95%;
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
         /*width: 100vh;*/
         text-align: left;
     }
@@ -276,12 +339,14 @@ text {
     
     #Name {
         
-        font-size: 1.2rem;
+        font-size: 2.0rem;
         display: inline-block;
+        margin-bottom: 0.3rem;
     }
     
     #ContactInfo {
         display: inline-block;
+        margin-top: 0;
     }
     
     
@@ -299,7 +364,7 @@ text {
     
     
     #WorkHistory {
-        margin-top: 5rem;
+        margin-top: 0;
     }
     
     #FluentWorlds {
@@ -315,14 +380,21 @@ text {
     
     .Grid {
         display: flex;
-        max-width: 70%;
+        flex-wrap: wrap;
+        max-width: 80%;
         margin-right: auto;
         margin-left: auto;
-        gap: 20%;
+    }
+    
+    .Column {
+        flex: 0, 0, 0;
+        min-width: 400px;
+        max-width: 400px;
+        margin-right: auto;
+        margin-left: auto;
     }
     
     .Column > div{
         margin-bottom: 3rem;
     }
-
 }
