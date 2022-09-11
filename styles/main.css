@@ -167,6 +167,10 @@ text {
     margin-bottom: 3rem;
 }
 
+#UserInterfaceTa {
+    margin-bottom: 3rem;
+}
+
 #Skills {
     margin-top: 5rem;
     margin-bottom: 22vh;
@@ -368,6 +372,10 @@ text {
     }
     
     #FluentWorlds {
+        margin-bottom: 3rem;
+    }
+
+    #UserInterfaceTa {
         margin-bottom: 3rem;
     }
     
